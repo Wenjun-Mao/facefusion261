@@ -62,8 +62,8 @@ def get_frame_processors_modules(frame_processors : List[str]) -> List[ModuleTyp
 def clear_frame_processors_modules() -> None:
 	global FRAME_PROCESSORS_MODULES
 
-	for frame_processor_module in get_frame_processors_modules(facefusion.globals.frame_processors):
-		frame_processor_module.clear_frame_processor()
+	# for frame_processor_module in get_frame_processors_modules(facefusion.globals.frame_processors):
+	# 	frame_processor_module.clear_frame_processor()
 	FRAME_PROCESSORS_MODULES = []
 
 
